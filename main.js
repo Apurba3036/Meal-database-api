@@ -10,7 +10,7 @@ const displaymeals=meals=> {
     const mealscontainer= document.getElementById('mealscontainer')
     mealscontainer.innerHTML="";
     meals.forEach(meal => {
-        console.log(meal);
+        // console.log(meal);
         const mealdiv= document.createElement('div')
         mealdiv.classList.add('col');
         mealdiv.innerHTML=` 
